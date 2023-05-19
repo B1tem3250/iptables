@@ -6,7 +6,7 @@ description       'Installs the iptables daemon and provides resources for manag
 source_url        'https://github.com/chef-cookbooks/iptables'
 issues_url        'https://github.com/chef-cookbooks/iptables/issues'
 chef_version      '>= 15.3'
-version           '8.0.0'
+version           '8.0.1'
 
 %w(redhat centos debian ubuntu amazon scientific oracle amazon zlinux).each do |os|
   supports os
